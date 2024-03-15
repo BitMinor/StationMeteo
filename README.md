@@ -30,28 +30,24 @@ Affichage sur l'Écran LCD: Toutes les données météorologiques ainsi que l'he
 
 Schéma de Connexion:
 
-DHT22 : 6
-BMP180 : SDA/SCL
-DS3231 : SDA/SCL
+DHT22 : 2 ;
+BMP180 : SDA/SCL ;
+DS3231 : SDA/SCL ;
 LCD : 
-	vss -
-	vdd +
-	v0 potentiomètre
-	rs : 3
-	rw : -
-	e : 4
-	d0
-	d1
-	d2
-	d3
-	d4 : 5
-	d5 : 6
-	d6 : 7
-	d7 : 8
-	a : 9
-	k : -
- 
-Boutons : 10;11;12;13
+vss - ;
+vdd + ;
+v0 potentiomètre ;
+rs : 3 ;
+rw : - ;
+e : 4 ;
+d4 : 5 ;
+d5 : 6 ;
+d6 : 7 ;
+d7 : 8 ;
+a : 9 ;
+k : - ;
+
+Boutons : 10;11;12;13  ;
 
 Installation:
 
